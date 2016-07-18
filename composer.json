@@ -1,0 +1,26 @@
+{
+  "name": "deadkash/sipuni-bundle",
+  "type": "library",
+  "description": "Sipuni VoIP integration",
+  "license": "MIT",
+  "homepage": "https://github.com/deadkash/SipuniBundle",
+  "authors": [
+    {
+      "name": "Igor Lukashov",
+      "email": "deadkash@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/symfony": "~2.3",
+    "sensio/framework-extra-bundle": "2.3.*",
+    "cboden/ratchet": "0.4.x-dev",
+    "react/zmq": "^0.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Deadkash\\SipuniBundle\\": "src/"
+    }
+  }
+}
